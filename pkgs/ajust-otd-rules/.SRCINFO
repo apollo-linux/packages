@@ -1,0 +1,11 @@
+pkgbase = ajust-otd-rules
+	pkgdesc = Dormant OpenTabletDriver rules for image-based OSes, intended to be enabled on-demand with a command runner
+	pkgver = 0.6.7
+	pkgrel = 1
+	url = https://github.com/OpenTabletDriver/OpenTabletDriver
+	arch = x86_64
+	license = LGPL
+	source = git+https://github.com/OpenTabletDriver/OpenTabletDriver.git#tag=v0.6.7
+	sha256sums = SKIP
+
+pkgname = ajust-otd-rules
