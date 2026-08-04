@@ -1,0 +1,11 @@
+pkgbase = xdg-terminal-exec
+	pkgver = 0.14.3
+	pkgrel = 1
+	url = https://github.com/Vladimir-csp/xdg-terminal-exec
+	arch = x86_64
+	license = GPL
+	makedepends = scdoc
+	source = git+https://github.com/Vladimir-csp/xdg-terminal-exec.git#tag=v0.14.3
+	sha256sums = SKIP
+
+pkgname = xdg-terminal-exec
