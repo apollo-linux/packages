@@ -3,7 +3,7 @@ pkgname=xdg-terminal-exec
 pkgver=0.14.3 # renovate: datasource=github-tags depName=Vladimir-csp/xdg-terminal-exec
 pkgrel=1
 epoch=
-pkgdesc=""
+pkgdesc="Proposal for XDG Default Terminal Execution Specification and shell-based reference implementation."
 arch=('x86_64')
 url="https://github.com/Vladimir-csp/xdg-terminal-exec"
 license=('GPL')
