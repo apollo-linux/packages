@@ -1,0 +1,41 @@
+# Maintainer: Izzy <izzyjackson05@outlook.com>
+pkgname=xdg-terminal-exec
+pkgver=0.14.3
+pkgrel=1
+epoch=
+pkgdesc=""
+arch=()
+url="https://github.com/Vladimir-csp/xdg-terminal-exec"
+license=('GPL')
+groups=()
+depends=()
+makedepends=()
+checkdepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=("git+$url.git#tag=v$pkgver")
+noextract=()
+sha256sums=('SKIP')
+validpgpkeys=()
+
+prepare() {
+    cd "$pkgname"
+    # Add Ptyxis to the list of terminals
+    echo "org.gnome.Ptyxis.desktop:new-window" | tee -a /usr/share/xdg-terminal-exec/xdg-terminals.list
+}
+
+build() {
+	cd "$pkgname"
+	make
+}
+
+package() {
+	cd "$pkgname"
+	make DESTDIR="$pkgdir/" prefix="/usr" install
+}
