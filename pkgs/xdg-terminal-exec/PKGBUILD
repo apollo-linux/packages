@@ -4,7 +4,7 @@ pkgver=0.14.3
 pkgrel=1
 epoch=
 pkgdesc=""
-arch=()
+arch=('x86_64')
 url="https://github.com/Vladimir-csp/xdg-terminal-exec"
 license=('GPL')
 groups=()
@@ -27,7 +27,7 @@ validpgpkeys=()
 prepare() {
     cd "$pkgname"
     # Add Ptyxis to the list of terminals
-    echo "org.gnome.Ptyxis.desktop:new-window" | tee -a /usr/share/xdg-terminal-exec/xdg-terminals.list
+    echo "org.gnome.Ptyxis.desktop:new-window" | tee -a xdg-terminals.list
 }
 
 build() {
