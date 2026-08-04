@@ -1,6 +1,6 @@
 # Maintainer: Izzy <izzyjackson05@outlook.com>
 pkgname=xdg-terminal-exec
-pkgver=0.14.3
+pkgver=0.14.3 # renovate: datasource=github-tags depName=Vladimir-csp/xdg-terminal-exec
 pkgrel=1
 epoch=
 pkgdesc=""
