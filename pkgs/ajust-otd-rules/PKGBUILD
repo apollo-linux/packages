@@ -1,7 +1,7 @@
 # Maintainer: Izzy <izzyjackson05@outlook.com>
 pkgname=ajust-otd-rules
 # pkgver should be the latest 
-pkgver=0.6.7 # renovate: datasource=github-tags depName=OpenTabletDriver/OpenTabletDriver
+pkgver=0.6.8 # renovate: datasource=github-tags depName=OpenTabletDriver/OpenTabletDriver
 pkgrel=1
 epoch=
 pkgdesc="Dormant OpenTabletDriver rules for image-based OSes, intended to be enabled on-demand with a command runner"
